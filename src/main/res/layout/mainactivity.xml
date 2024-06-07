@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no">
+
+    </ImageView>
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <ImageView
+        android:id="@+id/kotakataskiri"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewtengah"
+        app:layout_constraintEnd_toStartOf="@+id/kotakatastengah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/kotakataskanan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewtengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kotakatastengah"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotakatastengah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewtengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewtengah"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotakbawahkanan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kotakbawahtengah"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtengah"></ImageView>
+
+    <ImageView
+        android:id="@+id/kotakbawahkiri"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kotakbawahtengah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtengah"></ImageView>
+
+    <ImageView
+        android:id="@+id/kotakbawahtengah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#A020F0"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewtengah"></ImageView>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rian_Kurniawan"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/nim"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtengah"
+        app:layout_constraintStart_toStartOf="@+id/imageViewtengah"
+        app:layout_constraintTop_toTopOf="@+id/imageViewtengah" />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="ssi202203181"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewtengah"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewtengah"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/imageViewtengah" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:importantForAccessibility="no" />
+
+
+</>
+
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="375dp"
+android:layout_height="100dp"
+android:layout_gravity="center"
+android:background="#A020F0"
+android:importantForAccessibility="no" />
+
+</LinearLayout>
